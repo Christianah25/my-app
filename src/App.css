@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: white;
+  padding: 20px;
+  color: black;
+}
+.movieCard {
+  background-color: hsl(200, 57%, 86%);
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px #b8b8b8;
+  width: 50%;
+  color: black; /* text color */
+  margin: 25px auto; /* auto: equal left and right */
+  padding: 10px;
+}
+.row {
+  display: flex;
+  justify-content: left;
+}
+.counter {
+  padding: 5px 10px;
+  margin: auto 10px;
+  font-size: 2em;
+  color: hsl (0, 0%, 25%);
+}
+.text {
+  text-align: left;
+}
+.counter button {
+  border: none;
+  background-color: hsl(200, 57%, 86%);
+}
+.counter img {
+  width: 10%;
+}
